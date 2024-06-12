@@ -1,0 +1,22 @@
+#root {
+  background: #343a40;
+}
+
+.oke {
+  margin-right: 20px;
+  margin-bottom: 10px;
+  transition: transform 0.5s ease;
+}
+.truncate {
+  display: -webkit-box;
+  -webkit-line-clamp: 3; /* Menampilkan maksimal 3 baris */
+  -webkit-box-orient: vertical;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+.oke:hover {
+  /* Efek yang diinginkan saat hover */
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1); /* Contoh: menambahkan bayangan saat hover */
+  transform: translateY(-5px); /* Contoh: menggeser kartu ke atas saat hover */
+}
